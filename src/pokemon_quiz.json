@@ -1,0 +1,55 @@
+{
+    "questions": [
+      {
+        "question": "How many Pokémon are in the original gen1?",
+        "options": [151, 152, 153, 154],
+        "correctAnswer": 151
+      },
+      {
+        "question": "What type is Pikachu?",
+        "options": ["Electric", "Fire", "Water", "Grass"],
+        "correctAnswer": "Electric"
+      },
+      {
+        "question": "Which Pokémon is known as the 'Seed Pokémon'?",
+        "options": ["Charmander", "Squirtle", "Bulbasaur", "Pikachu"],
+        "correctAnswer": "Bulbasaur"
+      },
+      {
+        "question": "What type is Charizard?",
+        "options": ["Fire/Flying", "Fire/Dragon", "Fire", "Fire/Rock"],
+        "correctAnswer": "Fire/Flying"
+      },
+      {
+        "question": "Which Pokémon evolves into Raichu?",
+        "options": ["Jigglypuff", "Eevee", "Pikachu", "Vulpix"],
+        "correctAnswer": "Pikachu"
+      },
+      {
+        "question": "What is the first Pokémon in the Pokédex?",
+        "options": ["Charmander", "Pikachu", "Bulbasaur", "Squirtle"],
+        "correctAnswer": "Bulbasaur"
+      },
+      {
+        "question": "What color is a shiny Magikarp?",
+        "options": ["Red", "Blue", "Gold", "Silver"],
+        "correctAnswer": "Gold"
+      },
+      {
+        "question": "Which Pokémon is known as the 'Fire Horse Pokémon'?",
+        "options": ["Rapidash", "Ponyta", "Arcanine", "Flareon"],
+        "correctAnswer": "Rapidash"
+      },
+      {
+        "question": "Which move is Pikachu's signature move?",
+        "options": ["Thunderbolt", "Quick Attack", "Iron Tail", "Volt Tackle"],
+        "correctAnswer": "Volt Tackle"
+      },
+      {
+        "question": "Which Pokémon evolves using a Water Stone?",
+        "options": ["Vulpix", "Poliwhirl", "Machoke", "Gloom"],
+        "correctAnswer": "Poliwhirl"
+      }
+    ]
+  }
+  

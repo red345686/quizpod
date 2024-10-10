@@ -1,13 +1,375 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
+
+.us
+{
+background: linear-gradient(180deg, #212020 0%, #666 26.5%);
+height: 100vh;
+margin: none;
+padding: none;
+border: none;
+position: relative;
+max-width: 100%;
+
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    max-width: 100%;
+}
+.quizpod{
+  font-family: Roboto;
+font-size: 5rem;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 8rem */
+
+
+flex-shrink: 0;
+background: linear-gradient(90deg, #FFF 0%, #999 30.5%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-left: 6rem;
+margin-top: 0.1rem;
+padding: 10px;
+
+}
+.intro{
+  font-family: Roboto;
+font-size: 2rem;
+color: #FEFEFE;
+font-weight: 400;
+padding: 0.2rem;
+position: relative;
+margin-top: 5%;
+}
+input {
+  font-family: Roboto, sans-serif;
+
+  font-size: 1.5rem;
+  padding: 10px;
+  margin: 54px;
+  border: 2px solid rgb(189, 40, 189);
+  border-radius: 8px;
+  color: #000; /* Set text color to black */
+  background-color: #f0f0f0; /* Light background */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Add smooth transition */
+  outline: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input:focus {
+  border-color: #6a0dad; /* Change border color on focus */
+  box-shadow: 0 0 8px rgba(189, 40, 189, 0.5); /* Add shadow when focused */
 }
+/*button {
+ /* background-color: transparent; /* Primary green */
+  /*border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: background-color 0.3s, box-shadow 0.3s; /* Added shadow transition */
+ /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+/*}
+
+button:hover {
+  /*background-color: #45a049;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); /* Deepen shadow on hover */
+/*}*/
+
+.rect {
+  width: 35rem;
+  height: 20rem;
+  background: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+  filter: blur(120px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1; /* Behind content */
+}
+.white-line {
+  width: 100%;   /* Line width */
+  max-width:  89%; /* Set a max width for the line */
+  height: 2px;   /* Thickness of the line */
+  background-color: white;
+  position: relative;
+  margin: 4rem;
+  top: 2rem;
+  border: 1px solid #FFF8F8;
+
+
+
+  
+}
+button{
+  border-radius: 10rem;
+  width: 27.125rem;
+  height: 6rem;
+  flex-shrink: 0;
+
+  }
+  .imagetext{
+    color: #FEFEFE;
+-webkit-text-stroke-width: 1;
+-webkit-text-stroke-color: #FFF0F0;
+font-family: Risque;
+font-size: 4rem;
+font-style: normal;
+font-weight: 400;
+
+line-height: 45%; /* 8rem */
+z-index: 1;
+position: relative;
+
+backdrop-filter: blur(2px);
+left: 5%;
+height: 100%;
+top: 2rem;
+max-width: 100%;
+
+    }
+  .landingimage{
+    
+    width: 87.5%;
+    height: 41.4%;
+    object-fit: cover;
+   
+    top: 0;
+    left: 0;
+    position: absolute;
+    top: 18%;
+    left: 4%;
+    z-index: 0;
+
+   
+   
+  }
+  .subjectdisplay1{
+    display: flex;
+  }
+  .subjectdisplay2{
+    display: flex;
+  }
+  .subject{
+    height: 10%;
+    width: 25%;
+    max-width: 100%;
+   
+
+position: relative;
+font-size: 1.8rem;
+padding: 5px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 3rem */
+align-content: space-between;
+margin: 20px;
+left: 10%;
+
+  }
+  .english{
+    background-image: url("./image/english.png");
+    color: #FEFEFE;
+    background-position: center;
+    background-size: cover;
+  }
+  .maths{
+    background-image: url("./image/maths.png");
+    color: #FEFEFE;
+    background-size: cover;
+    background-position: center;
+  }
+  .science{
+    background-image: url("./image/science.png");
+    color: #FEFEFE;
+    background-size: cover;
+    background-position: center;
+  }
+  .computer{
+    background-image: url("./image/computer.png");
+    color: #FEFEFE;
+    background-size: cover;
+    background-position: center;
+  }
+  .gk{
+    background-image: url("./image/gk.png");
+    color: #FEFEFE;
+    background-size: cover;
+    background-position: center;
+  }
+  .sst{
+    background-image: url("./image/sst.png");
+    color: #FEFEFE;
+    background-size: cover;
+    background-position: center;
+  }
+  .science:hover{
+    cursor: pointer;
+
+  }
+  .maths:hover{
+    cursor: pointer;
+
+  }
+  .english:hover{
+    cursor: pointer;
+
+  }
+  .computer:hover{
+    cursor: pointer;
+
+  }
+  .gk:hover{
+    cursor: pointer;
+
+  }
+  .sst:hover{
+    cursor: pointer;
+
+  }
+  .subject:hover {
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+    transition: transform 0.3s ease-in-out; /* Smooth scaling effect */
+    background-color: rgba(0, 0, 0, 0.5); /* Example effect: darken on hover */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition */
+  }
+  .starting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+   
+    max-width: 100%; /* Prevent overflow */
+   
+   
+   
+   
+    position: relative;
+    margin-top: 0.5%;
+  
+    max-width: 100%;
+  }
+  .quizbutton{
+    position: relative;
+    margin-top: 1.8%;
+    width: 15rem;
+    height: 5rem;
+    font-size: 1.75rem;
+    
+
+  }
+  .quizbutton:hover{
+    cursor: pointer;
+    background-color: #6a0dad;
+    color: #FEFEFE;
+    border-radius: 10rem;
+    transition: background-color 0.3s ease-in-out; /* Smooth transition */
+  }
+  .mascot{
+   
+
+    position: absolute;
+    
+    bottom: 1%;
+    right: 1%;
+    
+  }
+  .options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    margin-top: 3rem;
+    position: relative;
+    max-width: 100%;
+    margin-left: 7.6rem;
+}
+.options button{
+  background-color: transparent;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  text-align: left;
+  height: 3.5rem;
+width: 15rem;
+  
+
+}
+.options button:hover{
+  cursor: pointer;
+  background-color: #6a0dad;
+  color: #FEFEFE;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease-in-out;
+  
+  
+}
+.question{
+  font-family:Roboto;
+  font-size: 2rem;
+  color: #FEFEFE;
+  margin-top: 5rem;
+  margin-left: 7.6rem;
+
+}
+.Score {
+  font-family: Roboto;
+  font-size: 2rem;
+  color: #FEFEFE;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  /* Responsive design */
+  @media (max-width: 768px) { /* Adjust the breakpoint as needed */
+    font-size: 1.5rem;
+    right: auto;
+    left: 20px; /* Adjust this value as needed */
+  }
+}
+canvas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+top: 20px;
+right: 150px;
+@media (max-width: 768px) { 
+  font-size: 1.5rem;
+  right: auto;
+  left: 20px; /* Adjust this value as needed */
+}
+  background-color: transparent;
+}
+.graph {
+  position: fixed; /* Use fixed to cover the entire screen */
+  top: 0;
+  left: 0;
+  width: 90vw; /* Full viewport width */
+  height: 90vh; /* Full viewport height */
+  z-index: 1; /* Make sure it is above other elements */
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background for contrast */
+  animation: fadeIn 0.5s ease-in-out; /* Animation for graph appearance */
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+}
+  
+  
+
+
+  
+  
+  

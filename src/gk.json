@@ -1,0 +1,30 @@
+{
+    "questions": [
+      {
+        "question": "Who was the first President of the United States?",
+        "options": ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"],
+        "correctAnswer": "George Washington"
+      },
+      {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+        "correctAnswer": "Mars"
+      },
+      {
+        "question": "What is the capital of France?",
+        "options": ["London", "Paris", "Berlin", "Madrid"],
+        "correctAnswer": "Paris"
+      },
+      {
+        "question": "In which year did World War I begin?",
+        "options": ["1912", "1914", "1916", "1918"],
+        "correctAnswer": "1914"
+      },
+      {
+        "question": "Which country has the largest population in the world?",
+        "options": ["India", "China", "USA", "Russia"],
+        "correctAnswer": "India"
+      }
+    ]
+  }
+  

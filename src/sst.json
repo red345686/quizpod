@@ -1,0 +1,30 @@
+{
+    "questions": [
+      {
+        "question": "Who wrote the Indian Constitution?",
+        "options": ["Jawaharlal Nehru", "Mahatma Gandhi", "B. R. Ambedkar", "Sardar Patel"],
+        "correctAnswer": "B. R. Ambedkar"
+      },
+      {
+        "question": "In which year did India gain independence?",
+        "options": ["1945", "1946", "1947", "1948"],
+        "correctAnswer": "1947"
+      },
+      {
+        "question": "Which is the largest continent in the world?",
+        "options": ["Africa", "Asia", "Europe", "Australia"],
+        "correctAnswer": "Asia"
+      },
+      {
+        "question": "Who was the first emperor of the Mughal Empire?",
+        "options": ["Akbar", "Babur", "Humayun", "Shah Jahan"],
+        "correctAnswer": "Babur"
+      },
+      {
+        "question": "Which revolution is known for its impact on agriculture?",
+        "options": ["Green Revolution", "Industrial Revolution", "French Revolution", "American Revolution"],
+        "correctAnswer": "Green Revolution"
+      }
+    ]
+  }
+  

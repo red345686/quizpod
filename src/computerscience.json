@@ -1,0 +1,30 @@
+{
+    "questions": [
+      {
+        "question": "Which of the following is a programming language?",
+        "options": ["HTML", "CSS", "JavaScript", "SQL"],
+        "correctAnswer": "JavaScript"
+      },
+      {
+        "question": "What does CPU stand for?",
+        "options": ["Central Processing Unit", "Computer Processing Unit", "Central Program Unit", "Computer Program Unit"],
+        "correctAnswer": "Central Processing Unit"
+      },
+      {
+        "question": "Which part of the computer is responsible for storing data?",
+        "options": ["RAM", "Hard Drive", "Monitor", "CPU"],
+        "correctAnswer": "Hard Drive"
+      },
+      {
+        "question": "What is the extension of a Python file?",
+        "options": [".py", ".java", ".html", ".exe"],
+        "correctAnswer": ".py"
+      },
+      {
+        "question": "Which of the following is a type of software?",
+        "options": ["Hardware", "Operating System", "Keyboard", "Monitor"],
+        "correctAnswer": "Operating System"
+      }
+    ]
+  }
+  
