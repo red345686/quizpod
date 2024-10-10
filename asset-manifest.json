@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/quizpod/static/css/main.52c9ed15.css",
+    "main.js": "/quizpod/static/js/main.db31d173.js",
+    "static/js/42.75de578e.chunk.js": "/quizpod/static/js/42.75de578e.chunk.js",
+    "static/js/927.a6c16bb4.chunk.js": "/quizpod/static/js/927.a6c16bb4.chunk.js",
+    "static/js/771.ffb8ab48.chunk.js": "/quizpod/static/js/771.ffb8ab48.chunk.js",
+    "static/js/104.f52e871d.chunk.js": "/quizpod/static/js/104.f52e871d.chunk.js",
+    "static/js/542.50c29774.chunk.js": "/quizpod/static/js/542.50c29774.chunk.js",
+    "static/js/637.34793f3a.chunk.js": "/quizpod/static/js/637.34793f3a.chunk.js",
+    "static/js/762.3807f8f5.chunk.js": "/quizpod/static/js/762.3807f8f5.chunk.js",
+    "static/js/789.ee1c7416.chunk.js": "/quizpod/static/js/789.ee1c7416.chunk.js",
+    "static/media/mascot_start.gif": "/quizpod/static/media/mascot_start.8e0575d5561e8df0ecb9.gif",
+    "static/media/image4.png": "/quizpod/static/media/image4.f1cc378cd920359d06da.png",
+    "static/media/computer.png": "/quizpod/static/media/computer.4732bd190da1ef2c5e88.png",
+    "static/media/sst.png": "/quizpod/static/media/sst.cb1a1d6482ace9fb4fc6.png",
+    "static/media/gk.png": "/quizpod/static/media/gk.6e8714a27b441eac8ac9.png",
+    "static/media/maths.png": "/quizpod/static/media/maths.b6f5e639c0830031463b.png",
+    "static/media/science.png": "/quizpod/static/media/science.69152ffd1e152dd2eba6.png",
+    "static/media/english.png": "/quizpod/static/media/english.de1a26b91647aba7083f.png",
+    "index.html": "/quizpod/index.html",
+    "main.52c9ed15.css.map": "/quizpod/static/css/main.52c9ed15.css.map",
+    "main.db31d173.js.map": "/quizpod/static/js/main.db31d173.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52c9ed15.css",
+    "static/js/main.db31d173.js"
+  ]
+}
