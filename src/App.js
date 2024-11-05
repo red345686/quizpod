@@ -10,7 +10,7 @@ const App = () => {
         <Router>
             <Routes>
                 <Route path="/" element={<LandingPage setSubject={setSubject} />} />
-                <Route path="/quiz" element={<KantoPokemonQuiz subject={subject} />} />s\
+                <Route path="/quiz" element={<KantoPokemonQuiz subject={subject} />} />
             </Routes>
         </Router>
     );

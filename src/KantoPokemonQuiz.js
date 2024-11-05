@@ -11,7 +11,7 @@ const KantoPokemonQuiz = ({ subject }) => {
     const [timeLeft, setTimeLeft] = useState(Infinity);
     const [allTime, setAllTime] = useState(0);
 
-    
+
     useEffect(() => {
         import(`./${subject}.json`)
             .then((data) => setQuizData(data.default))
@@ -20,7 +20,7 @@ const KantoPokemonQuiz = ({ subject }) => {
 
     function startQuiz() {
         setQuizStarted(true);
-        setTimeLeft(parseInt(document.getElementById('timeInput').value)); 
+        setTimeLeft(parseInt(document.getElementById('timeInput').value));
         setAllTime(parseInt(document.getElementById('timeInput').value));
     }
 
@@ -31,7 +31,7 @@ const KantoPokemonQuiz = ({ subject }) => {
             }, 1000);
             return () => clearTimeout(timer);
         } else if (timeLeft === 0) {
-            setEnd(true); 
+            setEnd(true);
         }
     }, [timeLeft]);
 
@@ -54,16 +54,16 @@ const KantoPokemonQuiz = ({ subject }) => {
                 )}
 
                 {quizStarted && !end && (
-                    <QuizQuestion 
-                        score={score} 
-                        setScore={setScore} 
-                        timeperquestion={timeperquestion} 
-                        setTimePerQuestion={setTimePerQuestion} 
-                        timeLeft={timeLeft} 
+                    <QuizQuestion
+                        score={score}
+                        setScore={setScore}
+                        timeperquestion={timeperquestion}
+                        setTimePerQuestion={setTimePerQuestion}
+                        timeLeft={timeLeft}
                         allTime={allTime}
                         end={end}
-                        setEnd={setEnd}  
-                        quizData={quizData} 
+                        setEnd={setEnd}
+                        quizData={quizData}
                     />
                 )}
 
